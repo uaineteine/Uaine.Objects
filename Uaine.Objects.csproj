@@ -8,6 +8,15 @@
     <Copyright>Daniel Stamer-Squair 2021</Copyright>
     <PackageProjectUrl>https://github.com/uaineteine/Uaine.Objects</PackageProjectUrl>
     <RepositoryUrl>https://github.com/uaineteine/Uaine.Objects.git</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
