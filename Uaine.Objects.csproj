@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>Daniel Stamer-Squair</Authors>
+    <Company />
+    <Description>A .NET library of object types and primitives</Description>
+    <Copyright>Daniel Stamer-Squair 2021</Copyright>
+    <PackageProjectUrl>https://github.com/uaineteine/Uaine.Objects</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/uaineteine/Uaine.Objects.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
