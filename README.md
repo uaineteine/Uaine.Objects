@@ -6,7 +6,7 @@ A C# .NET project for object types and basic primitives
 
 Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.Coord/)
 
-## Version 1.0
+## Version 1.1
 
 See the [changelog](changelog.txt) for details.
 
