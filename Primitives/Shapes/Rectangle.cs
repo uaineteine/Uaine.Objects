@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Uaine.Objects.Primitives.Shapes
+﻿namespace Uaine.Objects.Primitives.Shapes
 {
     public class Rectangle : Shape
     {
