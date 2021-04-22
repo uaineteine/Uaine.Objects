@@ -6,4 +6,10 @@
         {
         }
     }
+    public class IntCube : IntRectangularPrism
+    {
+        public IntCube(int w) : base(w, w, w)
+        {
+        }
+    }
 }

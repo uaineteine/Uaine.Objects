@@ -7,4 +7,11 @@
 
         }
     }
+    public class IntSquare : IntRectangle
+    {
+        public IntSquare(int w) : base(w, w)
+        {
+
+        }
+    }
 }

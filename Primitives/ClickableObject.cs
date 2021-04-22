@@ -1,5 +1,5 @@
 ﻿
-namespace Uaine.MonoInput
+namespace Uaine.Objects.Primitives
 {
     public class ClickableObject
     {
