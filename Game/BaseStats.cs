@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Uaine.Objects.Game
 {
-    struct BaseStats
+    class BaseStats
     {
         Stat Attack;
         Stat Defense;

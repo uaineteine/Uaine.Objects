@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Uaine.Objects.Primitives.Values;
 
 namespace Uaine.Objects.Game
 {
-    public struct Stat
+    public class Stat : FValue
     {
-        public float Value { get; set; }
+        public Stat(float val) : base(val)
+        {
+        }
+
+        public void Buff(float buffSum)
+        {
+            Value = _def + buffSum;
+        }
     }
 }
