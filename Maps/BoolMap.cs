@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Uaine.Objects.Primitives.Shapes;
+﻿using Uaine.Objects.Primitives.Shapes;
 
 namespace Uaine.Objects.Maps
 {

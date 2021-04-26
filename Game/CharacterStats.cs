@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Uaine.Objects.Game
 {
-    class CharacterStats : BaseStats
+    public class CharacterStats : BaseStats
     {
         float XP;
         int Level;
