@@ -1,6 +1,4 @@
-﻿using Uaine.MonoInput;
-
-namespace Uaine.Objects.Primitives
+﻿namespace Uaine.Objects.Primitives
 {
     public class TextObject
     {
