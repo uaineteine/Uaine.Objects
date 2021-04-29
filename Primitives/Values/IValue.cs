@@ -3,7 +3,7 @@
     public class IValue
     {
         public int Value;
-        private int _def;
+        protected int _def;
         public int def { get => _def; }
 
         public IValue(int val)

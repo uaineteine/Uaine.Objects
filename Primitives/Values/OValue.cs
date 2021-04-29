@@ -6,7 +6,7 @@ namespace Uaine.Objects.Primitives.Values
     {
         public Type type { get; set; }
         public object Value;
-        private object _def;
+        protected object _def;
         public object def { get => _def; }
 
         public OValue(Type t, object val)

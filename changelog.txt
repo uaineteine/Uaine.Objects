@@ -6,6 +6,7 @@ Extended with basic game types character and stats
 Added value types
 -Fixes:
 clickable object namespace fix
+protected values for def
 
 --1.1--
 Added geometric shapes
