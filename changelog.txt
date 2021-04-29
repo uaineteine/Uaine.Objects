@@ -1,4 +1,4 @@
---1.2--
+--1.2.0.1--
 Added int shapes atop of existing float sizes
 Added boolean and int map types
 Extended with basic game types character and stats
