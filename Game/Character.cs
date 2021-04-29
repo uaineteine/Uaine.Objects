@@ -10,9 +10,10 @@ namespace Uaine.Objects.Game
         public TextObject Description;
         public CharacterStats Stats;
 
-        public Character(string Name, TextObject description) : base(Name)
+        public Character(string Name, TextObject description, CharacterStats stats) : base(Name)
         {
             Description = description;
+            Stats = stats;
         }
     }
 }

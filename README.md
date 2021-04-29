@@ -4,7 +4,7 @@ A C# .NET project for object types and basic primitives
 
 ## Getting Started
 
-Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.Coord/)
+Add source project to solution with reference to get started or install via [NuGet](https://www.nuget.org/packages/Uaine.Objects/)
 
 ## Version 1.2
 

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Uaine.Objects.Game
+﻿namespace Uaine.Objects.Game
 {
-    class BaseStats
+    public class BaseStats
     {
         Stat Attack;
         Stat Defense;
+        Stat Armour;
     }
 }

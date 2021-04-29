@@ -20,9 +20,38 @@ namespace Uaine.Objects.Maps
             cells = cellmap;
         }
 
-        /*public bool[,] Subsec(int xi, int xf, int yi, int yf)
+        public bool[,] Subsec(int xi, int xf, int yi, int yf)
         {
-
-        }*/
+            int w = xf - xi;
+            int h = yf - yi;
+            return SubsecBySize(xi, w, yi, h);
+        }
+        public bool[,] SubsecBySize(int xi, int w, int yi, int h)
+        {
+            bool[,] sub = new bool[w, h];
+            for (int i = 0; i < w; i++)
+            {
+                for (int j = 0; j < h; j++)
+                {
+                    sub[i, j] = cells[i + xi, j + yi];
+                }
+            }
+            return sub;
+        }
+        public IntMap ConvertToIntMap()
+        {
+            IntMap newmap = new IntMap(Width, Height, 0);
+            for (int i = 0; i < Width; i++)
+            {
+                for (int j = 0; j < Height; j++)
+                {
+                    if (cells[i, j] == false)
+                        newmap.cells[i, j] = 0;
+                    else
+                        newmap.cells[i, j] = 1;
+                }
+            }
+            return newmap;
+        }
     }
 }
