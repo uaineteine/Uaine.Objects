@@ -2,12 +2,12 @@
 
 namespace Uaine.Objects.Maps
 {
-    public class IntMap : IntRectangle
+    public class FloatMap : IntRectangle
     {
-        public int[,] cells;
-        public IntMap(int width, int height, int init) : base(width, height)
+        public float[,] cells;
+        public FloatMap(int width, int height, int init) : base(width, height)
         {
-            cells = new int[width, height];
+            cells = new float[width, height];
             for (int i = 0; i < width; i++)
             {
                 for (int j = 0; j < height; j++)
@@ -16,20 +16,20 @@ namespace Uaine.Objects.Maps
                 }
             }
         }
-        public IntMap(int[,] cellmap, int w, int h) : base(w, h)
+        public FloatMap(float[,] cellmap, int w, int h) : base(w, h)
         {
             cells = cellmap;
         }
 
-        public int[,] Subsec(int xi, int xf, int yi, int yf)
+        public float[,] Subsec(int xi, int xf, int yi, int yf)
         {
             int w = xf - xi;
             int h = yf - yi;
             return SubsecBySize(xi, w, yi, h);
         }
-        public int[,] SubsecBySize(int xi, int w, int yi, int h)
+        public float[,] SubsecBySize(int xi, int w, int yi, int h)
         {
-            int[,] sub = new int[w, h];
+            float[,] sub = new float[w, h];
             for (int i = 0; i < w; i++)
             {
                 for (int j = 0; j < h; j++)
