@@ -9,5 +9,8 @@ namespace Uaine.Objects.Primitives.ID
         {
             _id = id;
         }
+
+        //operators
+        public static implicit operator long(ID64 obj) => obj.ID;
     }
 }

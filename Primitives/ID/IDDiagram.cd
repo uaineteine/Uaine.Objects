@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Uaine.Objects.Primitives.ID.ID16">
+    <Position X="1" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAAEAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitives\ID\ID16.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Primitives.ID.ID32">
+    <Position X="4.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Primitives\ID\ID32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Primitives.ID.ID64">
+    <Position X="7.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAABIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitives\ID\ID64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Primitives.ID.PolyID32">
+    <Position X="4.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAQACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Primitives\ID\PolyID32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -9,5 +9,12 @@ namespace Uaine.Objects.Primitives.ID
         {
             _id = id;
         }
+        public ID32(ID16 id)
+        {
+            _id = id.ID;
+        }
+
+        //operators
+        public static implicit operator int(ID32 obj) => obj.ID;
     }
 }

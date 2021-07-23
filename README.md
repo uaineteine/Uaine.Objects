@@ -12,7 +12,7 @@ Base classes to inherit from:
 
 ![GameDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/Shapes.png)
 
-## Version 1.3.1
+## Version 1.4
 
 See the [changelog](changelog.txt) for details.
 
