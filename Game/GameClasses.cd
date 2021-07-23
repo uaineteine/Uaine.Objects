@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Game.Character">
-    <Position X="5" Y="3.25" Width="1.5" />
+    <Position X="5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game\Character.cs</FileName>
@@ -17,14 +17,14 @@
   <Class Name="Uaine.Objects.Game.CharacterStats">
     <Position X="3" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAABAAAABAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAABAAQABAAAAAAAAAAA=</HashCode>
       <FileName>Game\CharacterStats.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Game.Item">
     <Position X="5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ABAAAAAAAAAgAAAAAAAAAAAAgAAABIAAAAAAAAAAAAA=</HashCode>
       <FileName>Game\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
