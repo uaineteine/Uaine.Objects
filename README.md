@@ -10,7 +10,9 @@ Base classes to inherit from:
 
 ![GameDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/gameclasses.png)
 
-![GameDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/Shapes.png)
+![ShapeDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/Shapes.png)
+
+![IDDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/IDs.png)
 
 ## Version 1.4
 
