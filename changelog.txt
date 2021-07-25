@@ -1,3 +1,8 @@
+--1.5--
+IDs to string override
+polyID length propety
+polyID to string functions
+
 --1.4--
 Character speed stat
 item stacks

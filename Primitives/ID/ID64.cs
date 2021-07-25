@@ -12,5 +12,11 @@ namespace Uaine.Objects.Primitives.ID
 
         //operators
         public static implicit operator long(ID64 obj) => obj.ID;
+
+        //overrides
+        public override string ToString()
+        {
+            return _id.ToString();
+        }
     }
 }
