@@ -10,22 +10,29 @@
   <Class Name="Uaine.Objects.Primitives.ID.ID32">
     <Position X="4.25" Y="1" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEAABAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Primitives\ID\ID32.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Primitives.ID.ID64">
     <Position X="7.25" Y="1" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAABIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEAABIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Primitives\ID\ID64.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Primitives.ID.PolyID32">
     <Position X="4.25" Y="3.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAQACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEQAAAAABAACQACAACAAAAAAAAAAA=</HashCode>
       <FileName>Primitives\ID\PolyID32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Primitives.ID.PolyID64">
+    <Position X="7.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEQCAAAABAACQACAACAAAAAAAAAAA=</HashCode>
+      <FileName>Primitives\ID\PolyID64.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

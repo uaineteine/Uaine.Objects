@@ -3,6 +3,8 @@ IDs to string override
 polyID length propety
 polyID to string functions
 polyID64 bit length added
+added segment bit lengths to polyIDs
+added hexadecimal string conversion to polyIDs
 
 --1.4--
 Character speed stat
