@@ -1,10 +1,12 @@
 ﻿
+using System;
 using System.Text;
 
 namespace Uaine.Objects.Primitives.ID
 {
     public class PolyID64
     {
+        public const int SegmentBitLength = 64;
         public ID64[] IDs;
         public int NumIDs { get => IDs.Length; }
         public int Length { get => IDs.Length; }
@@ -45,6 +47,19 @@ namespace Uaine.Objects.Primitives.ID
                 sb.Append(IDs[i].ToString() + delimitter);
             }
             sb.Append(IDs[Length - 1].ToString());
+            return sb.ToString();
+        }
+        public string ParseIntoHexaDecimalString(string delimitter)
+        {
+            StringBuilder sb = new StringBuilder();
+            int toBase = 16;
+            for (int i = 0; i < Length - 1; i++)    //all but last
+            {
+                string hex = Convert.ToString(IDs[i], toBase);
+                sb.Append(hex + delimitter);
+            }
+            string hexi = Convert.ToString(IDs[Length - 1], toBase);
+            sb.Append(hexi);
             return sb.ToString();
         }
     }

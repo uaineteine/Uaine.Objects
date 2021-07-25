@@ -5,6 +5,7 @@ namespace Uaine.Objects.Primitives.ID
 {
     public class PolyID32
     {
+        public const int SegmentBitLength = 32;
         public ID32[] IDs;
         public int NumIDs { get => IDs.Length; }
         public int Length { get => IDs.Length; }
