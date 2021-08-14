@@ -1,5 +1,3 @@
-using System;
-
 namespace Uaine.Objects.Random
 {
     public class SeededRandom : System.Random
@@ -13,6 +11,11 @@ namespace Uaine.Objects.Random
         {
             seedString = seed;
             seedInt = seed.GetHashCode();
+        }
+        public SeededRandom(int seed) : base(seed)
+        {
+            seedString = seed.ToString();
+            seedInt = seed;
         }
     }
 }
