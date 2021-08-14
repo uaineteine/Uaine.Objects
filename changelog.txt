@@ -1,3 +1,6 @@
+--1.6--
+seeded random class
+
 --1.5--
 IDs to string override
 polyID length propety

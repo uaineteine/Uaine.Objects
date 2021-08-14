@@ -14,7 +14,7 @@ Base classes to inherit from:
 
 ![IDDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/IDs.png)
 
-## Version 1.5
+## Version 1.6
 
 See the [changelog](changelog.txt) for details.
 
