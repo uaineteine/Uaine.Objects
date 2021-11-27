@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Uaine.Objects.Primitives.Values;
 
 namespace Uaine.Objects.Game.Card
 {
@@ -37,13 +36,7 @@ namespace Uaine.Objects.Game.Card
 
         public Card DrawCard()
         {
-            if (RemainingCards == 0)
-            {
-                throw new Exception("Not enough cards remaining in deck to draw");
-            }
-            Card drawn = cardDeck[RemainingCards - 1];
-            cardDeck.RemoveAt(RemainingCards - 1);
-            return drawn;
+            return DrawAtIndex(RemainingCards - 1);
         }
         public Card[] DrawCards(int number)
         {
@@ -58,11 +51,21 @@ namespace Uaine.Objects.Game.Card
             }
             return drawn;
         }
-        public Card getRandomCard()
+        public Card DrawRandomCard()
         {
             System.Random random = new System.Random();
             int i = random.Next(RemainingCards);
-            return cardDeck[i];
+            return DrawAtIndex(i);
+        }
+        public Card DrawAtIndex(int i)
+        {
+            if (RemainingCards == 0)
+            {
+                throw new Exception("Not enough cards remaining in deck to draw");
+            }
+            Card drawn = cardDeck[i];
+            cardDeck.RemoveAt(i);
+            return drawn;
         }
 
         public void addToDiscardPile(Card thisCard)

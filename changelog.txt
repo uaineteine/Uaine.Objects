@@ -2,6 +2,7 @@
 treasury class added
 Value classes given implicit constructors
 Card and deck classes added
+Die class added (w modifiers)
 
 --1.6--
 seeded random class
