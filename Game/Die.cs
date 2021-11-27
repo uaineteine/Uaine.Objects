@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Uaine.Objects.Primitives.Values;
 
 namespace Uaine.Objects.Game
