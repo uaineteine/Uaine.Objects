@@ -11,6 +11,11 @@
             Value = val;
             _def = val;
         }
+        public FValue(float val, float def)
+        {
+            Value = val;
+            _def = def;
+        }
 
         public void ResetToDefault()
         {
@@ -24,6 +29,11 @@
         {
             NewDefault(defaul);
             ResetToDefault();
+        }
+
+        public static implicit operator FValue(float v)
+        {
+            return new FValue(v);
         }
     }
 }

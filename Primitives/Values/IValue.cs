@@ -1,4 +1,6 @@
-﻿namespace Uaine.Objects.Primitives.Values
+﻿using System;
+
+namespace Uaine.Objects.Primitives.Values
 {
     public class IValue
     {
@@ -10,6 +12,11 @@
         {
             Value = val;
             _def = val;
+        }
+        public IValue(int val, int def)
+        {
+            Value = val;
+            _def = def;
         }
 
         public void ResetToDefault()
@@ -24,6 +31,11 @@
         {
             NewDefault(defaul);
             ResetToDefault();
+        }
+
+        public static implicit operator IValue(int v)
+        {
+            return new IValue(v);
         }
     }
 }

@@ -1,3 +1,8 @@
+--1.7--
+treasury class added
+Value classes given implicit constructors
+Card and deck classes added
+
 --1.6--
 seeded random class
 
