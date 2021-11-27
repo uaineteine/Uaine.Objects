@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Uaine.Objects.Primitives.Values;
 
@@ -34,9 +35,28 @@ namespace Uaine.Objects.Game.Card
             cardDeck = new List<Card>(cardDeck.OrderBy(x => random.Next()).ToArray());
         }
 
-        public Card getTopMostCard()
+        public Card DrawCard()
         {
-            return cardDeck[RemainingCards - 1];
+            if (RemainingCards == 0)
+            {
+                throw new Exception("Not enough cards remaining in deck to draw");
+            }
+            Card drawn = cardDeck[RemainingCards - 1];
+            cardDeck.RemoveAt(RemainingCards - 1);
+            return drawn;
+        }
+        public Card[] DrawCards(int number)
+        {
+            if (number > RemainingCards)
+            {
+                throw new Exception("Not enough cards remaining in deck to draw");
+            }
+            Card[] drawn = new Card[number];
+            for (int i = 0; i < number; i++)
+            {
+                drawn[i] = DrawCard();
+            }
+            return drawn;
         }
         public Card getRandomCard()
         {
