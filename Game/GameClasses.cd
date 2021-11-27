@@ -49,5 +49,19 @@
       <FileName>Game\Sprite.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Uaine.Objects.Game.Card.Card">
+    <Position X="10.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Card\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Game.Card.Deck">
+    <Position X="10.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAAAgAAAAABAAAABAAABAAAAAAAAEA=</HashCode>
+      <FileName>Game\Card\Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
