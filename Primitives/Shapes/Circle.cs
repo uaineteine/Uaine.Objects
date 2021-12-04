@@ -15,5 +15,10 @@ namespace Uaine.Objects.Primitives.Shapes
         {
             return (float)(radius * radius * Math.PI);
         }
+
+        public float Circumference()
+        {
+            return (float)(2 * Math.PI * radius);
+        }
     }
 }

@@ -22,5 +22,16 @@ namespace Uaine.Objects.Game
             return Math.Max(0, roll);
         }
         public int Roll() { return Roll(0); } //assume 0 mod 
+
+        public int PolyRoll(int nrolls, int modifier)
+        {
+            int s = 0;
+            for (int i = 0; i < nrolls; i++)
+            {
+                s += Roll(modifier);
+            }
+            return s;
+        }
+        public int PolyRoll(int nrolls) { return PolyRoll(nrolls, 0); } //assume 0 mod 
     }
 }

@@ -72,5 +72,16 @@ namespace Uaine.Objects.Game.Card
         {
             discardPile.Add(thisCard);
         }
+
+        public void AddToDeck(Card thisCard)
+        {
+            cardDeck.Add(thisCard);
+        }
+
+        public void ReturnDiscardPileToDeck()
+        {
+            cardDeck.AddRange(discardPile);
+            discardPile.Clear();
+        }
     }
 }
