@@ -5,6 +5,7 @@ namespace Uaine.Objects.Maps
     public class BoolMap : IntRectangle
     {
         public bool[,] cells;
+        public int Size { get => (int)Measure(); }
         public BoolMap(int width, int height, bool init) : base(width, height)
         {
             cells = new bool[width, height];

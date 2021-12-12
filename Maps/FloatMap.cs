@@ -5,6 +5,7 @@ namespace Uaine.Objects.Maps
     public class FloatMap : IntRectangle
     {
         public float[,] cells;
+        public int Size { get => (int)Measure(); }
         public FloatMap(int width, int height, int init) : base(width, height)
         {
             cells = new float[width, height];

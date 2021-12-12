@@ -7,7 +7,9 @@ namespace Uaine.Objects.Game.Card
     public class Deck
     {
         protected List<Card> cardDeck;
+        public Card[] returnDeckArray { get => cardDeck.ToArray(); }
         protected List<Card> discardPile;
+        public Card[] returnDiscardArray { get => discardPile.ToArray(); }
         public int RemainingCards { get => cardDeck.Count; }
         public int NumberDiscardCards { get => discardPile.Count; }
 

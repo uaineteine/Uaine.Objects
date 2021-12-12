@@ -1,3 +1,8 @@
+--1.9--
+Item Stack class introduced, doesn't error handle but it will throw exceptions if an item is stacked beyond its limits
+Deck piles can be returned as a whole array for read only functionality
+All maps can return a size propety on the measure (area)
+
 --1.8--
 Deck class extended to handle adding cards to the deck
 Circle can return circumference

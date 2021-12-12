@@ -5,6 +5,7 @@ namespace Uaine.Objects.Maps
     public class IntMap : IntRectangle
     {
         public int[,] cells;
+        public int Size { get => (int)Measure(); }
         public IntMap(int width, int height, int init) : base(width, height)
         {
             cells = new int[width, height];
