@@ -1,3 +1,7 @@
+--1.9.2--
+item stack constructor fix
+ - item stacks were not being initalised
+
 --1.9.1--
 ID can be formed from integers via implicit operators
 

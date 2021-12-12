@@ -16,10 +16,11 @@ namespace Uaine.Objects.Game
         {
             stack.removeStack(number);
         }
-        public Item(string Name, TextObject description, CharacterStats stats) : base(Name)
+        public Item(string Name, TextObject description, CharacterStats stats, ItemStack itmstack) : base(Name)
         {
             Description = description;
             Stats = stats;
+            stack = itmstack;
         }
     }
     public class ItemStack
