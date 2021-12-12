@@ -16,6 +16,7 @@ namespace Uaine.Objects.Primitives.ID
 
         //operators
         public static implicit operator int(ID32 obj) => obj.ID;
+        public static implicit operator ID32(int id) => new ID32(id);
 
         //overrides
         public override string ToString()

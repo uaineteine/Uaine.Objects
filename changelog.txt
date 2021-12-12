@@ -1,3 +1,6 @@
+--1.9.1--
+ID can be formed from integers via implicit operators
+
 --1.9--
 Item Stack class introduced, doesn't error handle but it will throw exceptions if an item is stacked beyond its limits
 Deck piles can be returned as a whole array for read only functionality
