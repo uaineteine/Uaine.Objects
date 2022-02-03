@@ -1,3 +1,6 @@
+--1.9.3--
+card equals == != operators added
+
 --1.9.2--
 item stack constructor fix
  - item stacks were not being initalised

@@ -50,9 +50,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Game.Card.Card">
-    <Position X="9" Y="0.75" Width="2.5" />
+    <Position X="9" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
       <FileName>Game\Card\Card.cs</FileName>
     </TypeIdentifier>
   </Class>
