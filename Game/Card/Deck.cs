@@ -13,6 +13,13 @@ namespace Uaine.Objects.Game.Card
         public int RemainingCards { get => cardDeck.Count; }
         public int NumberDiscardCards { get => discardPile.Count; }
 
+        public Deck(Card[] list)
+        {
+            //int size = numValues * numClasses;
+            cardDeck = list.ToList();
+            discardPile = new List<Card>();
+            ShuffleDeck();
+        }
         public Deck(int numValues, int numClasses)
         {
             //int size = numValues * numClasses;

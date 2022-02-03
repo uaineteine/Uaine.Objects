@@ -1,3 +1,7 @@
+--1.10--
+Deck can be set from a prexisting list of cards
+Added an integer counter class
+
 --1.9.3--
 card equals == != operators added
 

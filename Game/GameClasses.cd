@@ -36,14 +36,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Game.Stat">
-    <Position X="1" Y="1" Width="1.5" />
+    <Position X="1.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game\Stat.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Game.Sprite">
-    <Position X="1" Y="4" Width="1.5" />
+    <Position X="1.25" Y="2.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game\Sprite.cs</FileName>
@@ -82,6 +82,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAABKIQAAACEAAAAAA=</HashCode>
       <FileName>Game\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Game.Counter">
+    <Position X="1.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Game\Counter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
