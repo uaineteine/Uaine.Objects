@@ -14,7 +14,9 @@ Base classes to inherit from:
 
 ![IDDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/IDs.png)
 
-## Version 1.10
+![MapsDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/maps.png)
+
+## Version 1.11
 
 See the [changelog](changelog.txt) for details.
 
