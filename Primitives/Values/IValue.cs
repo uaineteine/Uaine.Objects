@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Uaine.Objects.Primitives.Values
+﻿namespace Uaine.Objects.Primitives.Values
 {
     public class IValue
     {
