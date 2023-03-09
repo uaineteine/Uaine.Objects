@@ -1,4 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Uaine.Objects.Maps.Map2D&lt;T&gt;">
+    <Position X="11.25" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAEEAAAAAA=</HashCode>
+      <FileName>Maps\2DMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Maps.BoolMap">
+    <Position X="9" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maps\BoolMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Maps.FloatMap">
+    <Position X="13" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maps\FloatMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Objects.Maps.IntMap">
+    <Position X="15.75" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maps\IntMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
