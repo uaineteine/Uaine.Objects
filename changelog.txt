@@ -1,4 +1,8 @@
 --1.10--
+Add interface IArithmetic for order of operations
+.NET standard moved up to 1.3
+
+--1.10--
 Deck can be set from a prexisting list of cards
 Added an integer counter class
 
