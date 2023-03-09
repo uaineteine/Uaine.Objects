@@ -1,6 +1,4 @@
-﻿using Uaine.Objects.Primitives.Shapes;
-
-namespace Uaine.Objects.Maps
+﻿namespace Uaine.Objects.Maps
 {
     public class FloatMap : Map2D<float>
     {
