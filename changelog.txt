@@ -2,6 +2,7 @@
 Added hash class
 Random types seperated into seperate package
 game types seperated into seperate package
+.NET standard moved up to 2.0
 
 --1.11--
 Add interface IArithmetic for order of operations
