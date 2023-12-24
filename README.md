@@ -8,15 +8,13 @@ Add source project to solution with reference to get started or install via [NuG
 
 Base classes to inherit from:
 
-![GameDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/gameclasses.png)
-
 ![ShapeDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/Shapes.png)
 
 ![IDDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/IDs.png)
 
 ![MapsDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/maps.png)
 
-## Version 1.11
+## Version 2.0
 
 See the [changelog](changelog.txt) for details.
 

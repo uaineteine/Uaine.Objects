@@ -1,18 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Daniel Stamer-Squair</Authors>
     <Company />
     <Description>A .NET library of object types and primitives for constructing larger classes</Description>
-    <Copyright>Daniel Stamer-Squair 2021</Copyright>
+    <Copyright>Daniel Stamer-Squair 2023</Copyright>
     <PackageProjectUrl>https://github.com/uaineteine/Uaine.Objects</PackageProjectUrl>
     <RepositoryUrl>https://github.com/uaineteine/Uaine.Objects.git</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.11</Version>
-    <AssemblyVersion>1.11.0.0</AssemblyVersion>
-    <FileVersion>1.11.0.0</FileVersion>
+    <Version>2.0</Version>
+    <AssemblyVersion>2.0</AssemblyVersion>
+    <FileVersion>2.0</FileVersion>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
@@ -25,6 +25,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
