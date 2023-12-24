@@ -1,7 +1,7 @@
 --2.0--
 Added hash class
-Random types seperated into seperate package
-game types seperated into seperate package
+Random types separated into separate package
+game types separated into separate package
 .NET standard moved up to 2.0
 
 --1.11--
