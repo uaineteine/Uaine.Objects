@@ -40,5 +40,18 @@ namespace Uaine.Objects.Primitives
         {
             return JsonConvert.DeserializeObject<HashCode>(json);
         }
+
+        public static bool operator ==(HashCode left, HashCode right)
+        {
+            if (ReferenceEquals(left, null))
+                return ReferenceEquals(right, null);
+
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(HashCode left, HashCode right)
+        {
+            return !(left == right);
+        }
     }
 }
