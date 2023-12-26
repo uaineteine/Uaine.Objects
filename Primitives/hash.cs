@@ -1,20 +1,16 @@
-﻿using Newtonsoft.Json; // Assuming you're using Newtonsoft.Json for serialization
+﻿using System;
+using System.Collections;
+using Newtonsoft.Json;
 
 namespace Uaine.Objects.Primitives
 {
-
     public class HashCode
     {
-        public int KeyValue { get; }
+        public byte[] HashBytes { get; }
 
-        public HashCode(int keyValue)
+        public HashCode(byte[] hashBytes)
         {
-            KeyValue = keyValue;
-        }
-
-        public override int GetHashCode()
-        {
-            return KeyValue.GetHashCode();
+            HashBytes = hashBytes ?? throw new ArgumentNullException(nameof(hashBytes));
         }
 
         public override bool Equals(object obj)
@@ -22,13 +18,19 @@ namespace Uaine.Objects.Primitives
             if (obj == null || GetType() != obj.GetType())
                 return false;
 
-            HashCode otherKey = (HashCode)obj;
-            return KeyValue == otherKey.KeyValue;
+            HashCode otherHash = (HashCode)obj;
+            return StructuralComparisons.StructuralEqualityComparer.Equals(HashBytes, otherHash.HashBytes);
+        }
+
+        public override int GetHashCode()
+        {
+            // Use XOR to create a hash code from the byte array
+            return BitConverter.ToInt32(HashBytes, 0) ^ BitConverter.ToInt32(HashBytes, 4) ^ BitConverter.ToInt32(HashBytes, 8);
         }
 
         public override string ToString()
         {
-            return $"HashCode: {KeyValue}";
+            return $"HashCode: {BitConverter.ToString(HashBytes).Replace("-", string.Empty)}";
         }
 
         public string ToJson()
