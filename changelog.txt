@@ -1,3 +1,7 @@
+--2.0.1--
+Hash code length variated
+new properties for hash code
+
 --2.0--
 Added hash class
 Random types seperated into seperate package
