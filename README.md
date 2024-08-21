@@ -12,6 +12,8 @@ Base classes to inherit from:
 
 ![IDDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/IDs.png)
 
+![TextDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/text.png)
+
 ## Version 3.0
 
 See the [changelog](changelog.txt) for details.

@@ -1,5 +1,9 @@
 --3.0--
-made maps standalone as a package to better package maintenance
+Made maps standalone as a package to better package maintenance
+Changed namespace of text classes for future expansion
+Made print string function for HashCode that presents the prefix hashcode:
+-ToString() for hash code simply keeps it as a hexcode with no prefix
+
 
 --2.0.1--
 Hash code length variated
