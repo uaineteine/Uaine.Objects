@@ -1,4 +1,4 @@
-﻿namespace Uaine.Objects.Primitives
+﻿namespace Uaine.Objects.Text
 {
     public class TextObject
     {
@@ -8,7 +8,7 @@
         {
             return Text == "";
         }
-        
+
         public TextObject(string text, Alignment align)
         {
             Text = text;

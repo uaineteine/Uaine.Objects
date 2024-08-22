@@ -1,15 +1,15 @@
-﻿namespace Uaine.Objects.Primitives
+﻿namespace Uaine.Objects.Text
 {
-    public class Message
+    public class TextMessage
     {
         public TextObject Title;
         public TextObject Description;
-        public Message(TextObject title)
+        public TextMessage(TextObject title)
         {
             Title = title;
             Description = new TextObject("");
         }
-        public Message(TextObject title, TextObject desc)
+        public TextMessage(TextObject title, TextObject desc)
         {
             Title = title;
             Description = desc;

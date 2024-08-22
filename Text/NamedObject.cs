@@ -1,4 +1,4 @@
-﻿namespace Uaine.Objects.Primitives
+﻿namespace Uaine.Objects.Text
 {
     public class NamedObject
     {

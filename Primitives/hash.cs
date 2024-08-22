@@ -30,7 +30,12 @@ namespace Uaine.Objects.Primitives
 
         public override string ToString()
         {
-            return $"HashCode: {BitConverter.ToString(HashBytes).Replace("-", string.Empty)}";
+            return BitConverter.ToString(HashBytes).Replace("-", string.Empty);
+        }
+
+        public string MakePrintString()
+        {
+            return $"HashCode: {ToString()}";
         }
 
         public string ToJson()
