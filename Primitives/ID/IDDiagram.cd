@@ -3,7 +3,7 @@
   <Class Name="Uaine.Objects.Primitives.ID.ID16">
     <Position X="1" Y="1" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAQAAAAAAAAgAAEAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAgABEAABAAAAAAAAAAIAAAAAAAAAAAiA=</HashCode>
       <FileName>Primitives\ID\ID16.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -17,19 +17,19 @@
   <Class Name="Uaine.Objects.Primitives.ID.ID64">
     <Position X="7.25" Y="1" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAEAABIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEAQBIAAAAAAAAAIAAAAAAAAAAAiA=</HashCode>
       <FileName>Primitives\ID\ID64.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Primitives.ID.PolyID32">
-    <Position X="4.25" Y="3.75" Width="2.75" />
+    <Position X="4.25" Y="5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAEQAAAAABAACQACAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAEQCAAAABAACQACAACAAAAAAAAAAA=</HashCode>
       <FileName>Primitives\ID\PolyID32.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Objects.Primitives.ID.PolyID64">
-    <Position X="7.25" Y="3.75" Width="2.75" />
+    <Position X="7.25" Y="5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAEQCAAAABAACQACAACAAAAAAAAAAA=</HashCode>
       <FileName>Primitives\ID\PolyID64.cs</FileName>

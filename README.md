@@ -14,7 +14,7 @@ Base classes to inherit from:
 
 ![TextDiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Objects/release/images/text.png)
 
-## Version 3.0
+## Version 3.1
 
 See the [changelog](changelog.txt) for details.
 

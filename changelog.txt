@@ -1,3 +1,7 @@
+--3.1--
+ID classes include hashing functions and == != operators
+ByteArray value as a base class added and used to simplify hash code object
+
 --3.0--
 Made maps standalone as a package to better package maintenance
 Changed namespace of text classes for future expansion
